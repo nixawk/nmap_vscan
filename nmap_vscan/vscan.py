@@ -464,7 +464,13 @@ class ServiceScan(ServiceProbe):
                 if rfind and ("versioninfo" in match):
                     versioninfo = match['versioninfo']
 
-                    rfind = [rfind] if isinstance(rfind, str) else rfind[0]
+                    rfind = rfind[0]
+                    rfind = [rfind] if isinstance(rfind, str) else rfind
+
+                    # (['5.5.38-log'], <type 'list'>)
+                    # ([('2.0', '5.3')], <type 'list'>)
+                    # ([('2.4.7', 'www.nongnu.org')], <type 'list'>)
+
                     for index, value in enumerate(rfind):
                         dollar_name = "${}".format(index + 1)
 
