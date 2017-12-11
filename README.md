@@ -1,7 +1,7 @@
 
 # Nmap Vscan #
 
-Let's finish Service and Application Version Detection without [**Nmap**](https://nmap.org/) installation.
+**Nmap_vscan** can finish Service and Application Version Detection without [**Nmap**](https://nmap.org/) installation. **It is not an official release from the Nmap Project**. If you want to try it, please download [`nmap-service-probes`](https://svn.nmap.org/nmap/nmap-service-probes) at first. 
 
 
 ```python
@@ -63,3 +63,4 @@ pip install nmap_vscan
 - https://nmap.org/book/vscan.html
 - https://nmap.org/book/vscan-fileformat.html
 - https://github.com/nmap/nmap/blob/master/service_scan.cc
+- https://svn.nmap.org/nmap/nmap-service-probes
