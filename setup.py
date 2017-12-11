@@ -9,7 +9,7 @@ setup(
     license='MIT',
     url='https://github.com/nixawk/nmap_vscan',
     description='Nmap Vscan',
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     keywords='nmap vscan fingerprint recognition security',
     packages=['nmap_vscan'],
 
