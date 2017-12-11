@@ -1,0 +1,8 @@
+Nmap_vscan is not an official release from the Nmap Project. It can finish 
+service and application version detection without nmap installation, which
+is developed by Vex Woo (@Nixawk).
+
+
+Here is the list of the primary authors & contributors:
+
+ * fyodor
