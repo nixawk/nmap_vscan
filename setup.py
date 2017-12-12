@@ -3,12 +3,12 @@ from distutils.core import setup
 
 setup(
     name='nmap_vscan',
-    version='1.0.2',
+    version='1.1.0',
     author='Nixawk',
     author_email='',
     license='MIT',
     url='https://github.com/nixawk/nmap_vscan',
-    description='Nmap Vscan',
+    description='nmap service and application version detection (without nmap installation)',
     long_description=open('README.rst').read(),
     keywords='nmap vscan fingerprint recognition security',
     packages=['nmap_vscan'],

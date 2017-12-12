@@ -1,3 +1,4 @@
 include README.rst
-include LICENSE.txt
+include AUTHORS
+include LICENSE
 include MANIFEST.in
