@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='nmap_vscan',
-    version='1.0.1',
+    version='1.0.2',
     author='Nixawk',
     author_email='',
     license='MIT',

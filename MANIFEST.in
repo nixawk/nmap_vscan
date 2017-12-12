@@ -1,4 +1,3 @@
 include README.md
 include LICENSE.txt
 include MANIFEST.in
-include nmap-service-probes
